@@ -189,7 +189,7 @@ export default defineComponent({
     };
     onMounted(() => {
       proxy?.$el.$children?.forEach((child) => {
-        child.$on("click", (event) => {
+        child.$on("click", () => {
           const included = selectedItems.value.find((item) => {
             return child.$el === item.$el;
           });
