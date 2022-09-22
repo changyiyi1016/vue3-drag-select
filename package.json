@@ -1,0 +1,42 @@
+{
+  "name": "vue3-drag-select",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "lint": "eslint --fix --ext .ts,.vue src",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.vue\"",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/changyiyi1016/vue3-drag-select.git"
+  },
+  "author": "changyi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/changyiyi1016/vue3-drag-select/issues"
+  },
+  "homepage": "https://github.com/changyiyi1016/vue3-drag-select#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.38.0",
+    "@typescript-eslint/parser": "^5.38.0",
+    "@vitejs/plugin-vue": "3.0.3",
+    "@vitejs/plugin-vue-jsx": "2.0.0",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.23.1",
+    "eslint-formatter-pretty": "^4.1.0",
+    "eslint-plugin-json": "^3.1.0",
+    "eslint-plugin-vue": "^9.5.1",
+    "husky": "^8.0.1",
+    "prettier": "^2.7.1",
+    "vite": "3.0.7"
+  },
+  "dependencies": {
+    "typescript": "4.6.4",
+    "vue": "3.2.37"
+  }
+}
