@@ -156,7 +156,7 @@ export default defineComponent({
         }
       }
     };
-    const onMouseUp = (event) => {
+    const onMouseUp = () => {
       // Clean up event listeners
       window.removeEventListener("mousemove", onMouseMove);
       window.removeEventListener("mouseup", onMouseUp);
