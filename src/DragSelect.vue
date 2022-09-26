@@ -5,7 +5,7 @@
       v-if="mouseDown"
       class="vue-drag-select-box"
       :style="selectionBoxStyling"
-    ></div>
+    />
   </div>
 </template>
 <script lang="ts">
