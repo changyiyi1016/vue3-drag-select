@@ -1,8 +1,11 @@
 {
   "name": "vue3-drag-select",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A vue3 drag-and-drop box to select components",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.es.js",
+  "author": "changyi",
+  "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite",
@@ -11,12 +14,13 @@
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.vue\"",
     "prepare": "husky install"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/changyiyi1016/vue3-drag-select.git"
   },
-  "author": "changyi",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/changyiyi1016/vue3-drag-select/issues"
   },
