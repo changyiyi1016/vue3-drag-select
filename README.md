@@ -15,7 +15,7 @@ $ yarn add vue3-drag-select # or npm i --save vue3-drag-select
 - Import the component and add it to your template:
 
 ```js
-import DragSelect from "vue3-drag-select/src/DragSelect.vue";
+import DragSelect from "vue3-drag-select";
 
 export default {
   components: {
